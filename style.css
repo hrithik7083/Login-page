@@ -1,0 +1,55 @@
+.input1{
+    margin-top: 30px;
+    margin-left: 15px;
+    padding-top: 50px;
+    
+}
+#name1{
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.password{
+    margin-top: 10px;
+    margin-left:15px;
+   
+}
+#password{
+    border-radius: 10px;
+}
+.password2{
+    margin-top: 10px;
+    margin-left: 16px;
+    
+}
+#password2{
+    margin-left: 7px;
+    border-radius: 10px;
+}
+.submit{
+    margin-top: 80px;
+    margin-left: 105px;
+    border-radius: 10px;
+    border-color: #F6F7D4;
+    height: 50px;
+    width: 100px;
+    background-color: #99F3BD;
+    font-size: 20px;
+    font-style:bold;
+    color: rgb(10, 156, 107);
+    font-weight: bold;
+    animation: mymove 5s infinite;
+    
+}
+.form{
+   margin-top: 100px;
+   margin-left: 70px;
+   background-color: #28DF99;
+   height: 350px;
+   width: 300px;
+   border: 5px solid #99F3BD ;
+   border-radius: 80px;
+   padding-left: 5px;
+   
+}

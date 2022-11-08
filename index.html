@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"
+
+    <style>
+        
+        
+       
+    </style>
+    <title>Document</title>
+    <script type ="text/javascript">
+        function validateform(){
+            let name=document.myform.name.value;
+            let password=document.myform.password.value;
+            let conpass = document.myform.conpass.value;
+
+        if(name==null||name==""){
+            alert("Name can't be blank");
+            return false;
+        }else if(password!=conpass){
+            alert("Password must be match")
+            return false;
+        }else if(password<6){
+            alert("password must be 6 character long");
+
+        }
+
+      
+    
+    }  function focusevent(){
+            document.getElementById("name1").style.background="orange";
+        }
+        function focusevent2(){
+            document.getElementById("password").style.background="";
+        }
+        function focusevent3(){
+            document.getElementById("password2").style.background="green"
+
+        
+            
+        }
+
+        
+            
+        
+      
+    </script>
+</head>
+<body>
+    <form class="form" name="myform"  onsubmit="validateform()">
+        <div class="input1">
+            Name:
+            <input id="name1" type="text" name="name" onfocus="focusevent()"><br>
+
+        </div>
+        <div class="password">
+
+            Password:
+            <input id="password" type ="password" name="password" onfocus="focusevent2()"><br>
+        </div>
+        <div class="password2">
+            Re-type :
+            <input id="password2" type ="password" name="conpass" onfocus ="focusevent3()"><br>
+
+        </div>
+        <input class="submit" type ="submit" >
+        
+    </form>
+    
+</body>
+</html>
+   
+
+
+
+        
+
+    
+
+
+
+
+    
+
+
+</body>
+
+</html>
